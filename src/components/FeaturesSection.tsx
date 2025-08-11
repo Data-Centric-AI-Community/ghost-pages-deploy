@@ -58,8 +58,8 @@ const FeaturesSection = () => {
                 
                 {feature.href !== "#" ? (
                   <Button 
-                    variant="outline" 
-                    className="w-full mt-6 group-hover:bg-primary/5 border-primary/20"
+                    variant="ghost" 
+                    className="w-full mt-6 text-primary hover:text-primary/80 p-0 h-auto justify-center font-semibold"
                     asChild
                   >
                     <a href={feature.href} target="_blank" rel="noopener noreferrer">
