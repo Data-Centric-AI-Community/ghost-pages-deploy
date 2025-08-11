@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .tag { fill: none; stroke: #666; stroke-width: 2; }
+      .tag-text { fill: #1a1a1a; font-family: Arial, sans-serif; font-size: 8px; font-weight: bold; }
+      .connector { fill: none; stroke: #999; stroke-width: 1; stroke-dasharray: 2,2; }
+    </style>
+  </defs>
+  
+  <!-- Main data points -->
+  <circle fill="#666" cx="30" cy="40" r="4" />
+  <circle fill="#666" cx="50" cy="25" r="4" />
+  <circle fill="#666" cx="70" cy="45" r="4" />
+  <circle fill="#666" cx="40" cy="65" r="4" />
+  <circle fill="#666" cx="65" cy="75" r="4" />
+  
+  <!-- Label tags -->
+  <g transform="translate(20,15)">
+    <rect class="tag" x="0" y="0" width="20" height="12" rx="2" />
+    <text class="tag-text" x="10" y="8" text-anchor="middle">A</text>
+  </g>
+  
+  <g transform="translate(60,10)">
+    <rect class="tag" x="0" y="0" width="20" height="12" rx="2" />
+    <text class="tag-text" x="10" y="8" text-anchor="middle">B</text>
+  </g>
+  
+  <g transform="translate(75,30)">
+    <rect class="tag" x="0" y="0" width="20" height="12" rx="2" />
+    <text class="tag-text" x="10" y="8" text-anchor="middle">C</text>
+  </g>
+  
+  <g transform="translate(15,75)">
+    <rect class="tag" x="0" y="0" width="20" height="12" rx="2" />
+    <text class="tag-text" x="10" y="8" text-anchor="middle">D</text>
+  </g>
+  
+  <g transform="translate(70,85)">
+    <rect class="tag" x="0" y="0" width="20" height="12" rx="2" />
+    <text class="tag-text" x="10" y="8" text-anchor="middle">E</text>
+  </g>
+  
+  <!-- Connectors from labels to data points -->
+  <line class="connector" x1="30" y1="27" x2="30" y2="36" />
+  <line class="connector" x1="70" y1="22" x2="50" y2="29" />
+  <line class="connector" x1="85" y1="42" x2="74" y2="45" />
+  <line class="connector" x1="25" y1="75" x2="36" y2="69" />
+  <line class="connector" x1="80" y1="85" x2="69" y2="79" />
+</svg>
