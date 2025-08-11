@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
     <style>
-      .chart-bar { fill: #666; }
-      .chart-line { fill: none; stroke: #333; stroke-width: 2; }
-      .chart-axis { fill: none; stroke: #999; stroke-width: 1; }
+      .chart-bar { fill: #64748b; }
+      .chart-line { fill: none; stroke: #3b82f6; stroke-width: 2; }
+      .chart-axis { fill: none; stroke: #94a3b8; stroke-width: 1; }
     </style>
   </defs>
   
@@ -22,9 +22,9 @@
   <polyline class="chart-line" points="29,65 41,52 53,37 65,47 77,42" />
   
   <!-- Data points -->
-  <circle fill="#1a1a1a" cx="29" cy="65" r="2" />
-  <circle fill="#1a1a1a" cx="41" cy="52" r="2" />
-  <circle fill="#1a1a1a" cx="53" cy="37" r="2" />
-  <circle fill="#1a1a1a" cx="65" cy="47" r="2" />
-  <circle fill="#1a1a1a" cx="77" cy="42" r="2" />
+  <circle fill="#1e3a8a" cx="29" cy="65" r="2" />
+  <circle fill="#1e3a8a" cx="41" cy="52" r="2" />
+  <circle fill="#1e3a8a" cx="53" cy="37" r="2" />
+  <circle fill="#1e3a8a" cx="65" cy="47" r="2" />
+  <circle fill="#1e3a8a" cx="77" cy="42" r="2" />
 </svg>

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
     <style>
-      .cube-face { fill: none; stroke: #1a1a1a; stroke-width: 2; }
-      .cube-edge { fill: none; stroke: #666; stroke-width: 1.5; }
+      .cube-face { fill: none; stroke: #3b82f6; stroke-width: 2; }
+      .cube-edge { fill: none; stroke: #1e3a8a; stroke-width: 1.5; }
     </style>
   </defs>
   
